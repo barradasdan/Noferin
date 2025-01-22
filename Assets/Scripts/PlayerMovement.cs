@@ -14,17 +14,25 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
+        ImputManagement();
+    }
 
+    void FixedUpdate()
+    {
+        Move();
     }
 
     void ImputManagement()
     {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
 
+        moveDir = new Vector2(moveX, moveY).normalized;
     }
 
     void Move()
     {
-        
+        rb.linearVelocity = new Vector2(moveDir.x * moveSpeed, moveDir.y * moveSpeed);
     }
 
 }
