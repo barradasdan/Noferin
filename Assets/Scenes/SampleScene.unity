@@ -524,7 +524,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -4132,7 +4132,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -6792687703063130581, guid: d6591295054f940de9e56208313f8b66, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4283,8 +4283,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d8fb536ad624745b3065be46f0330a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  propSpawnPoints: []
-  propPreFabs: []
+  propSpawnPoints:
+  - {fileID: 1248231858}
+  - {fileID: 255481883}
+  - {fileID: 1688435079}
+  - {fileID: 334886982}
+  - {fileID: 1758837135}
+  - {fileID: 684226375}
+  propPreFabs:
+  - {fileID: 4467216851058059258, guid: 7cfc745f47c7d4c04a77b129f05b8919, type: 3}
+  - {fileID: 8125193538454337572, guid: cbce7fa9c2971494e8547309a3889329, type: 3}
+  - {fileID: 4460463200172541818, guid: 87f47999726cd4da998f35b443356d52, type: 3}
+  - {fileID: 8251567225371988493, guid: 0fb6265b0c21b4e2e990262a4fce9caf, type: 3}
+  - {fileID: 3393802663256034293, guid: 0676346a1f7534080825a6e85be29cfd, type: 3}
+  - {fileID: 8987358989459619438, guid: 58507d131249c43cebc5304769e14532, type: 3}
+  - {fileID: 93301033912211924, guid: 99e5f0197d0b34b329c24078a2d57fd1, type: 3}
+  - {fileID: 4060212845705299051, guid: 61781f50dba6747f987ca390ca7b92cc, type: 3}
+  - {fileID: 2745241185014698067, guid: 2f6dc2e8aa6f64673a2db63524873176, type: 3}
 --- !u!4 &1509280415
 Transform:
   m_ObjectHideFlags: 0
