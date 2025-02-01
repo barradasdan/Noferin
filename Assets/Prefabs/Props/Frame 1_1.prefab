@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 408456248295656989}
   - component: {fileID: 8769995989690366872}
-  - component: {fileID: 4800194819958847412}
+  - component: {fileID: 7458573188106964655}
   m_Layer: 0
   m_Name: Frame 1_1
   m_TagString: Untagged
@@ -28,7 +28,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.36, y: 1.82, z: 0}
-  m_LocalScale: {x: 0.28, y: 0.28, z: 0.28}
+  m_LocalScale: {x: 0.13, y: 0.13, z: 0.13}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &4800194819958847412
+--- !u!61 &7458573188106964655
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -132,5 +132,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 6.4310184, y: 8.52}
+  m_Size: {x: 20.096931, y: 26.625002}
   m_EdgeRadius: 0
