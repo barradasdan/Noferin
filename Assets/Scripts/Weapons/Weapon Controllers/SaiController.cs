@@ -16,6 +16,6 @@ public class SaiController : WeaponController
         base.Attack();
         GameObject spawnedSai = Instantiate(prefab);
         spawnedSai.transform.position = transform.position;
-        spawnedSai.GetComponent<SaiBehaviour>().DirectionChecker(pm.moveDir);   
+        spawnedSai.GetComponent<SaiBehaviour>().DirectionChecker(pm.lastMovedVector);   
     }
 }
